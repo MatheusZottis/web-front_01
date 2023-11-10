@@ -1,0 +1,49 @@
+* {
+    list-style: none;
+}
+
+body {
+    background: gray;
+}
+
+.container {
+    border: 1px solid brown;
+    max-width: 500px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-control {
+    margin: 25px;
+}
+
+.form-control input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    outline: 0;
+}
+
+button {
+    margin-bottom: 20px;
+    background: green;
+    border: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.erro {
+    color: red;
+    text-align: left;
+    margin-left: 32px;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
